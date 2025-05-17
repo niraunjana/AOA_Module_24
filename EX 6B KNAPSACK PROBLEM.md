@@ -13,8 +13,8 @@ To demonstrate a Python program using dynamic programming for the 0/1 knapsack p
 3. Use base conditions: if `n == 0` or `W == 0`, return 0.  
 4. If the weight of the nth item is more than the capacity `W`, exclude it.  
 5. Otherwise, consider the maximum of two cases:  
-   >> nth item included  
-   >> nth item not included  
+   - nth item included  
+   - nth item not included  
 6. Return the result of the recursive function.  
 
 ## Program:
