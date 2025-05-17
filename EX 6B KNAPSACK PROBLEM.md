@@ -1,27 +1,31 @@
-# EX 6B KNAPSACK PROBLEM  
+# EX:6B - KNAPSACK PROBLEM  
 ## DATE:  
 
 
-## AIM:  
+## AIM: 
+
 To demonstrate a Python program using dynamic programming for the 0/1 knapsack problem.  
 
 ## Algorithm  
+
 1. Start with inputs for the number of items, their weights and values, and the knapsack capacity.  
 2. Define a recursive function `knapSack(W, wt, val, n)` to calculate maximum value.  
 3. Use base conditions: if `n == 0` or `W == 0`, return 0.  
 4. If the weight of the nth item is more than the capacity `W`, exclude it.  
 5. Otherwise, consider the maximum of two cases:  
-   - nth item included  
-   - nth item not included  
+   >> nth item included  
+   >> nth item not included  
 6. Return the result of the recursive function.  
 
 ## Program:
-```python
-# To implement the program for 0/1 Knapsack problem.
 
-# Developed by: Sandhya B N
-# Register Number: 212222040144
+```
+To implement the program for 0/1 Knapsack problem.
 
+DEVELOPED BY: NIRAUNJANA GAYATHRI G R
+REGISTER NUMBER: 212222230096
+```
+```
 def knapSack(W, wt, val, n):
     # Base Condition
     if n == 0 or W == 0:
@@ -51,8 +55,11 @@ for j in range(y):
 n = len(val)
 print('The maximum value that can be put in a knapsack of capacity', W, 'is:', knapSack(W, wt, val, n))
 ```
+
 ## OUTPUT
+
 <img width="713" alt="image" src="https://github.com/user-attachments/assets/aeb8ff84-a51c-4156-a452-c6cdb8f682d0" />
 
 ## Result:
+
 Thus the program was executed successfully for finding the maximum value that can be put in a knap sack of capacity .
