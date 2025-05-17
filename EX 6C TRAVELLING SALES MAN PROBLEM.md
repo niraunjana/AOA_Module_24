@@ -1,12 +1,15 @@
-# EX 6C TRAVELLING SALES MAN PROBLEM  
+# EX:6C - TRAVELLING SALES MAN PROBLEM  
 ## DATE:   
 
-## AIM:  
+## AIM: 
+
 To solve the Travelling Salesman Problem (TSP) for the given graph using a brute-force approach.  
 
 ![image](https://github.com/user-attachments/assets/653921a4-3d7b-4691-9b41-735e80f7af0b)
 
+
 ## Algorithm  
+
 1. Represent the cities and paths using an adjacency matrix.  
 2. Generate all possible permutations of cities except the starting city.  
 3. Calculate the cost for every permutation path.  
@@ -14,12 +17,14 @@ To solve the Travelling Salesman Problem (TSP) for the given graph using a brute
 5. Return the minimum path cost to complete the tour from the start and back.  
 
 ## Program:
-```python
-# To implement the program for TSP.
 
-# Developed by: Sandhya B N
-# Register Number: 212222040144
+```
+To implement the program for TSP
 
+DEVELOPED BY     : NIRAUNJANA GAYATHRI G R
+REGISTER NUMBER  : 212222230096
+```
+```
 from sys import maxsize
 from itertools import permutations
 
@@ -54,8 +59,14 @@ if __name__ == "__main__":
     s = 0
     print("Minimum cost to visit all cities:", travellingSalesmanProblem(graph, s))
 ```
+
 ## Output:
+
 <img width="295" alt="image" src="https://github.com/user-attachments/assets/77a94fe2-1abd-4f5c-85d4-83de5d9a197a" />
+
+## Result:
+
+
 
 
 ## Result:
