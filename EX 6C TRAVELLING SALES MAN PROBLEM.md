@@ -64,10 +64,7 @@ if __name__ == "__main__":
 
 <img width="295" alt="image" src="https://github.com/user-attachments/assets/77a94fe2-1abd-4f5c-85d4-83de5d9a197a" />
 
-## Result:
-
-
-
 
 ## Result:
+
 Thus the program was executed successfully for finding the minimum cost to vist all cities.
